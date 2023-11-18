@@ -9,7 +9,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function Base() {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>מנת"ר</Navbar.Brand>
