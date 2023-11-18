@@ -25,7 +25,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/menater-dashboard",
+    basename: process.env.PUBLIC_URL,
   }
 );
 
