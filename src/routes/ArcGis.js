@@ -29,7 +29,7 @@ function ArcGis() {
     });
     map.layers.add(transportationLayer.current);
 
-    const view = new MapView({
+    new MapView({
       map: map,
       container: "viewDiv",
     });
