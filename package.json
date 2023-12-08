@@ -2,8 +2,9 @@
   "name": "menater-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eden881.github.io/menater-dashboard",
+  "homepage": "/menater-dashboard",
   "dependencies": {
+    "@arcgis/core": "^4.28.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,10 +18,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "npm run copy && react-scripts start",
+    "build": "npm run copy && react-scripts build",
+    "test": "npm run copy && react-scripts test",
+    "eject": "react-scripts eject",
+    "copy": "cp -r ./node_modules/@arcgis/core/assets ./public/assets"
   },
   "eslintConfig": {
     "extends": [

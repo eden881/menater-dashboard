@@ -23,6 +23,9 @@ function Base() {
               <LinkContainer to="/natars">
                 <Nav.Link>נת"רים</Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/arcgis">
+                <Nav.Link>ArcGIS</Nav.Link>
+              </LinkContainer>
               <NavDropdown title="פעולות">
                 <LinkContainer to="/1">
                   <NavDropdown.Item>פעולה</NavDropdown.Item>

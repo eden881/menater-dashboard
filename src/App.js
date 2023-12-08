@@ -5,6 +5,7 @@ import ErrorPage from "./ErrorPage";
 import Base from "./routes/Base";
 import Dashboard from "./routes/Dashboard";
 import NatarList from "./routes/NatarList";
+import ArcGis from "./routes/ArcGis";
 
 const router = createBrowserRouter(
   [
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
         {
           path: "natars",
           element: <NatarList />,
+        },
+        {
+          path: "arcgis",
+          element: <ArcGis />,
         },
       ],
     },
